@@ -1,5 +1,5 @@
 cat << 'EOS' >> $HOME/.bashrc
-file=$HOME"/redhat_setup/.bashrc"
+file=$HOME"/debian_setup/.bashrc"
 if [ -f $file ]; then
 	. $file
 fi
